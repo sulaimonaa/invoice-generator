@@ -93,7 +93,7 @@ cd invoice-generator
 ### 2. Configure Database
 Update `src/main/resources/application.properties` with your MySQL credentials:
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/invoice_generator_db
+spring.datasource.url=jdbc:mysql://localhost:3306/invoice_generator
 spring.datasource.username=your_db_user
 spring.datasource.password=your_db_password
 spring.jpa.hibernate.ddl-auto=update
